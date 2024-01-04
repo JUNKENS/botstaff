@@ -1,0 +1,19 @@
+{
+  "name": "tokirami-mod",
+  "version": "1.0.0",
+  "description": "TOKIRAMI Moderation",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/index.js"
+  },
+  "keywords": [],
+  "author": "K1la, LIKE",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/rest": "^2.0.1",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1",
+    "ytdl-core": "^4.11.5"
+  }
+}
